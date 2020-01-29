@@ -42,6 +42,7 @@ ANSI_SEQUENCES: Dict[str, Union[Keys, Tuple[Keys, ...]]] = {
     "\x19": Keys.ControlY,  # Control-Y (25)
     "\x1a": Keys.ControlZ,  # Control-Z
     "\x1b": Keys.Escape,  # Also Control-[
+    "\x9b": Keys.ShiftEscape,  # Also Control-[
     "\x1c": Keys.ControlBackslash,  # Both Control-\ (also Ctrl-| )
     "\x1d": Keys.ControlSquareClose,  # Control-]
     "\x1e": Keys.ControlCircumflex,  # Control-^

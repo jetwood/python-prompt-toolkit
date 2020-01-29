@@ -18,6 +18,7 @@ class Keys(str, Enum):
     value: str
 
     Escape = "escape"  # Also Control-[
+    ShiftEscape = "s-escape"
 
     ControlAt = "c-@"  # Also Control-Space.
 
